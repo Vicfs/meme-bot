@@ -1,0 +1,17 @@
+random:
+  choices:
+    - "These"
+    - "are"
+    - "chosen"
+    - "randomly"
+    - "."
+  type: random_choice
+  help: Random messages from given command.
+fixed: 
+  text: 'This message will be sent'
+  type: send
+  help: Fixed message from given command.
+this_mp3:
+  file: audio files\chosen_audio.mp3
+  type: audio
+  help: The MP3 file related to this commmand will be played in the user's voice channel.
